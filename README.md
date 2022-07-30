@@ -3,4 +3,4 @@ Uma pequena ajuda para o famoso jogo term.ooo
   
 Feito em linguagem C
 
-  <img src=/images/termo.png width=40%> <img src=/images/descobre-termo.png width=55%>
+  <img src=/images/termo.png width=50%> <img src=/images/descobre-termo.png width=70%>
