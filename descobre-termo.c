@@ -413,11 +413,11 @@ int main()
 				int existe = 0;
 
 				// Armazenar a palavra em uma variavel
-				char plv[6];				
+				char plv[6];
 				for (i = 0; i < 5; i++)
-                    plv[i] = text[ntext][i].letra;
-                for (i = 5; i < strlen(plv); i++)
-                    plv[i] = NULL;
+					plv[i] = text[ntext][i].letra;
+				for (i = 5; i < strlen(plv); i++)
+					plv[i] = NULL;
 				// Descobrir se a palavra existe
 
 				no q = listaFixa.prim;
@@ -428,7 +428,7 @@ int main()
 					existe = 0;
 				else
 					existe = 1;
-					
+
 				// -------------------------------------- //
 				if (existe == 1)
 				{
@@ -602,6 +602,8 @@ int main()
 
 					if (nExiste == 1)
 					{
+						gotoxy(90, 3);
+						printf("%d Palavras Possiveis", nExiste);
 						achou(lista, ntext);
 						restart(&lista, &opc, &cor, &ntext);
 					}
